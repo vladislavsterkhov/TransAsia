@@ -1,0 +1,45 @@
+TABLE {
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    width: 80%; /* Ширина таблицы */
+}
+TH, TD {
+    border: 1px solid black; /* Параметры рамки */
+    text-align: center; /* Выравнивание по центру */
+    padding: 4px; /* Поля вокруг текста */
+}
+TH {
+    background: #bebebe; /* Цвет фона ячейки */
+    height: 40px; /* Высота ячеек */
+    vertical-align: center; /* Выравнивание по нижнему краю */
+
+}
+
+input {
+    width: 30%;
+}
+
+
+#pn {
+    width: 90%;
+}
+
+#partName {
+    width: 90%;
+}
+
+
+#vendor {
+    width: 90%;
+}
+
+#qty {
+    width: 90%;
+}
+
+
+#filtering {
+    align-items: center;
+    height: 25px;
+    width: 150px;
+    margin-bottom: 20px;
+}
